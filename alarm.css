@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eaeaea;
+    color: #222222;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+#wrapper {
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 960px;
+    width: 80%;
+}
+
+#topbar {
+    background-color: #2d5a9c;
+    height: 3em;
+}
+
+#branding {
+    background-color: #ffffff;
+    padding: 1.25em 1.5em;
+}
+
+#logolink {
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    float: left;
+    height: 6.5em;
+    width: 8em;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+    padding-top: .35em;
+    text-align: left;
+}
+
+header h1 a {
+    color: #111111;
+    text-decoration: none;
+}
+
+nav {
+    background-color: #c9161d;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    color: #ffffff;
+    display: block;
+    font-size: 1.6em;
+    padding: 1em;
+    text-decoration: none;
+}
+
+nav a:link {
+    color: #ffffff;
+}
+
+nav a:visited {
+    color: #ffffff;
+}
+
+nav a:hover {
+    background-color: #9f1015;
+    color: #ffffff;
+}
+
+#current {
+    background-color: #a90f14;
+}
+
+main {
+    display: block;
+    padding: 0 0 2em 0;
+}
+
+#intro {
+    border-bottom: 1px solid #e1e1e1;
+    padding: 2em 0 1.5em 0;
+}
+
+#intro h2 {
+    color: #244d8c;
+    font-size: 4em;
+    margin: 0 0 .4em 0;
+    text-align: center;
+}
+
+#homehero {
+    background-image: url(camera.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35em;
+    margin-bottom: 1.5em;
+    width: 100%;
+}
+
+#intro p, #whoweare p, #whyus ul, #whyus p {
+    font-size: 2em;
+    line-height: 1.6;
+    margin-left: auto;
+    margin-right: auto;
+    width: 82%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#whoweare {
+    padding: 1.5em 0;
+}
+
+#whoweare h3, #whyus h3 {
+    color: #a1141a;
+    font-size: 3em;
+    margin: 2em auto 0.5em auto;
+    width: 82%;
+}
+
+#highlights {
+    font-size: 2em;
+    margin: auto;
+    width: 100%;
+    margin-left: 2em;
+    text-align: center;
+}
+
+#whyus {
+    clear: both;
+    padding: 0;
+}
+
+#whyus ul {
+    list-style-image: none;
+    padding-left: 1.2em;
+}
+
+#whyus li {
+    margin-bottom: .6em;
+}
+
+#whyus a {
+    color: #a1141a;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#contact {
+    text-align: center;
+}
+
+#contact h3 {
+    color: #a1141a;
+    font-size: 3em;
+    margin: 2em auto 0.5em auto;
+    width: 82%;
+}
+
+footer {
+    background-color: #f3f3f3;
+    border-top: 1px solid #d8d8d8;
+    color: #333333;
+    font-size: 1em;
+    padding: 1.5em;
+    text-align: center;
+}
+
+footer a {
+    color: #244d8c;
+    text-decoration: none;
+}
