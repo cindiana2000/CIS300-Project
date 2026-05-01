@@ -7,42 +7,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="alarm.css">
 </head>
-
 <body>
 <div id="wrapper">
 
-    <header>
-        <div id="topbar"></div>
-        <div id="branding">
-            <a href="index.html" id="logolink">Alarm Hawaii</a>
+<header>
+    <div id="topbar">Protect Your Peace of Mind</div>
+    <div id="branding">
+        <a href="index.html"><img src="logo.png" alt="Alarm Hawaii logo" id="logo"></a>
+        <div>
             <h1><a href="index.html">ALARM HAWAII</a></h1>
+            <p class="tagline">Protect Your Peace of Mind</p>
         </div>
-    </header>
+    </div>
+</header>
 
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="contact.html" id="current">Contact</a></li>
-        </ul>
-    </nav>
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html" id="current">Contact</a></li>
+    </ul>
+</nav>
 
-    <main>
-        <section id="intro">
-            <h2>Contact Us</h2>
-            <p>
-                Contact Alarm Hawaii to learn more about security systems, surveillance, access control, or alarm services.
-                Fill out the form below and we will help you choose a solution that fits your home or business.
-            </p>
-        </section>
+<main>
+    <section class="page">
+        <h2>Contact Us</h2>
+        <p>Complete the form below and we will get back to you as soon as possible.</p>
 
-        <section id="contact">
-            <div class="contact">
+        <div class="twocolumn">
+            <div>
                 <h3>Request Information</h3>
 
-                <form method="post" action="https://webdevbasics.net/scripts/demo.php">
+                <form method="post" action="#">
                     <label for="myName">Name:</label>
                     <input type="text" name="myName" id="myName">
 
@@ -54,33 +52,36 @@
 
                     <label for="myService">Service Needed:</label>
                     <select name="myService" id="myService">
-                        <option value="Surveillance">Surveillance</option>
-                        <option value="Access Control">Access Control</option>
-                        <option value="Alarm System">Alarm System</option>
-                        <option value="Other">Other</option>
+                        <option value="">Select a service</option>
+                        <option value="surveillance">Surveillance</option>
+                        <option value="access">Access Control</option>
+                        <option value="alarm">Alarm System</option>
+                        <option value="other">Other</option>
                     </select>
 
                     <label for="myComments">Comments:</label>
-                    <textarea name="myComments" id="myComments" rows="4" cols="40"></textarea>
+                    <textarea name="myComments" id="myComments" rows="5" cols="40"></textarea>
 
                     <input type="submit" value="Submit">
                     <input type="reset" value="Reset">
                 </form>
             </div>
-        </section>
 
-        <section id="whyus">
-            <h3>Other Contact Information</h3>
-            <p>Honolulu, Hawaii</p>
-            <p>Phone: 808-555-1234</p>
-            <p>Email: <a href="mailto:info@alarmhawaii.com">info@alarmhawaii.com</a></p>
-        </section>
-    </main>
+            <div>
+                <h3>Other Contact Information</h3>
+                <p>Honolulu, Hawaii</p>
+                <p>Phone: (808) 791-4357</p>
+                <p>Email: <a href="mailto:help@alarmhawaii.com">help@alarmhawaii.com</a></p>
+                <p>Monday - Friday: 8:00 AM - 5:00 PM</p>
+            </div>
+        </div>
+    </section>
+</main>
 
-    <footer>
-        Copyright &copy; 2026 Alarm Hawaii<br>
-        <a href="mailto:info@alarmhawaii.com">info@alarmhawaii.com</a>
-    </footer>
+<footer>
+    Copyright &copy; 2026 Alarm Hawaii<br>
+    <a href="mailto:help@alarmhawaii.com">help@alarmhawaii.com</a> | Kapolei, Hawaii
+</footer>
 
 </div>
 </body>
